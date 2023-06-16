@@ -1,6 +1,6 @@
 package dseerutt.demo.domaine.animal;
 
-public class Animal {
+public abstract class Animal {
 
     private String nom;
     private int age;

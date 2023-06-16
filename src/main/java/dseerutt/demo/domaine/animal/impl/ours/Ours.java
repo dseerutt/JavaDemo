@@ -1,4 +1,4 @@
-package dseerutt.demo.domaine.animal.impl;
+package dseerutt.demo.domaine.animal.impl.ours;
 
 import dseerutt.demo.domaine.animal.Animal;
 
