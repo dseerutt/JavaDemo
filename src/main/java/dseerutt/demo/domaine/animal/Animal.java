@@ -5,6 +5,8 @@ public abstract class Animal {
     private String nom;
     private int age;
 
+    private boolean joueur = false;
+
     protected Animal(String nom, int age) {
         this.nom = nom;
         this.age = age;
@@ -26,9 +28,18 @@ public abstract class Animal {
         this.age = age;
     }
 
+    public boolean isJoueur() {
+        return joueur;
+    }
+
+    public void setJoueur(boolean joueur) {
+        this.joueur = joueur;
+    }
+
     @Override
     public String toString() {
         return "nom='" + nom + '\'' +
-                ", age=" + age;
+                ", age=" + age +
+                ", joueur=" + joueur;
     }
 }

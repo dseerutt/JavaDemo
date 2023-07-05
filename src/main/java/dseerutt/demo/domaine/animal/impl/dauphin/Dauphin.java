@@ -6,9 +6,9 @@ public class Dauphin extends Animal {
 
     private EspeceDauphin especeDauphin;
 
-    public Dauphin(String nom, int age, EspeceDauphin typeDauphin) {
+    public Dauphin(String nom, int age, EspeceDauphin especeDauphin) {
         super(nom, age);
-        this.especeDauphin = typeDauphin;
+        this.especeDauphin = especeDauphin;
     }
 
     public EspeceDauphin getEspeceDauphin() {
@@ -22,7 +22,7 @@ public class Dauphin extends Animal {
     @Override
     public String toString() {
         return "Dauphin{" + super.toString() +
-                ", typeDauphin=" + especeDauphin +
+                ", especeDauphin=" + especeDauphin +
                 '}';
     }
 }
